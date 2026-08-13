@@ -29,13 +29,13 @@ OBSERVE: o numero de rotas cresce como (n-1)!  (fatorial)
 # Respostas das perguntas
 
 
-# REFLEXÃO FINAL
-# Tabela que as duplas/trio devem preencher
-# Numero de cidades | Rotas avaliadas | Tempo (s) | Melhor custo
-# 4                 | 6               | 0.000074  | 80
-# 5                 | 24              | 0.000048  | 41
-# 6                 | 120             | 0.000201  | 91
+# Reflexão Final
 
+| Número de Cidades | Rotas Avaliadas | Tempo (s) | Melhor Custo |
+| :---: | :---: | :---: | :---: |
+| 4 | 6 | 0,000074 | 80 |
+| 5 | 24 | 0,000048 | 41 |
+| 6 | 120 | 0,000201 | 91 |
 
 16. **O numero de rotas cresce de forma linear, quadratica ou muito mais rapido? Explique com as quantidades que voce coletou.**
    * **Resp:** Cresce de forma muito mais rápida, de acordo com os dados coletados. Isso porque, o crescimento não é linear (Por exemplo, de 4 para 5 cidades, aumentou 18 rotas (24-6). De 5 para 6 cidades, aumentou 96 rotas (120-24).) e também não é quadrático, pois fazendo as contas de n^2, ele não retorna os valores obtidos.
