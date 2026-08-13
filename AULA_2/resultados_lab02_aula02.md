@@ -1,8 +1,6 @@
 # Resultado do código
-=================================================================
-RESULTADOS DA FORCA-BRUTA NO TSP
-=================================================================
 
+RESULTADOS DA FORCA-BRUTA NO TSP
 >>> 4 cidades
     Rotas avaliadas : 6
     Melhor custo    : 80
@@ -21,10 +19,10 @@ RESULTADOS DA FORCA-BRUTA NO TSP
     Melhor rota     : (0, 1, 3, 4, 5, 2, 0)
     Tempo (segundos): 0.000201
 
-=================================================================
+
 OBSERVE: o numero de rotas cresce como (n-1)!  (fatorial)
 4 cidades -> 6 rotas | 5 -> 24 | 6 -> 120 | 10 -> 362880 | 15 -> 87 bilhoes
-=================================================================
+
 
 ---
 
