@@ -47,8 +47,6 @@ Validação (saída real do código) para as três populações:
 
 ### Evolução do fitness
 
-![Convergência Lab 01](img_lab01_convergencia.png)
-
 | Partículas | Fitness inicial (G_best) | Fitness na iteração 10 | Iteração em que estabiliza (tol. 1e-6) | Fitness final |
 |---|---|---|---|---|
 | 10 | 41,7992 | 39,8334 | 20 | 39,833333 |
@@ -103,10 +101,6 @@ Serviços: ['S2', 'S4', 'S6', 'S7', 'S8', 'S9', 'S13']
 
 ### Média e desvio-padrão do fitness por geração
 
-![Média do fitness](img_lab02_media.png)
-
-![Desvio-padrão do fitness](img_lab02_desvio.png)
-
 Valores em gerações selecionadas (saída real, semente 42):
 
 | Geração | A: média | A: desvio | B: média | B: desvio |
@@ -118,8 +112,6 @@ Valores em gerações selecionadas (saída real, semente 42):
 | 100 | 207,18 | 153,94 | 319,76 | 45,30 |
 
 ### Diversidade genética
-
-![Diversidade genética](img_lab02_diversidade.png)
 
 | Geração | A: diversidade | B: diversidade |
 |---|---|---|
@@ -172,8 +164,6 @@ Conectada e sem ciclos: True
 ```
 
 ### Convergência
-
-![Convergência Lab 03](img_lab03_convergencia.png)
 
 O melhor custo da 1ª iteração foi 177; o ACO chegou ao custo final (166) já na **iteração 2** e se manteve até a iteração 100.
 
